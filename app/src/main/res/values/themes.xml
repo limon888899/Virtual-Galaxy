@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - Dark Midnight Blue -->
+    <style name="Theme.VCamera" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_dark</item>
+        <item name="colorOnSecondary">@color/primary</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="actionMenuTextColor">@color/accent</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/primary_text</item>
+        <item name="colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/primary_text</item>
+        <item name="switchStyle">@style/CyanSwitchStyle</item>
+    </style>
+
+    <style name="ToolBarColorStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionMenuTextColor">@color/accent</item>
+        <item name="colorControlNormal">@color/accent</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="WelcomeTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="VCameraDialog" parent="Theme.VCamera">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="CyanSwitchStyle" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorControlActivated">@color/accent</item>
+    </style>
+    <style name="ToolbarTitleStyle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
+<!-- This line intentionally left for future additions -->

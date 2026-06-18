@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colors - Deep Indigo/Blue -->
+    <color name="primary">#1A1D2E</color>
+    <color name="primary_dark">#12141F</color>
+    <color name="primary_light">#252840</color>
+
+    <!-- Accent - Cyan/Teal glow -->
+    <color name="accent">#00E5FF</color>
+    <color name="accent_dark">#00B0CC</color>
+
+    <!-- Surface & Background -->
+    <color name="surface">#1E2138</color>
+    <color name="surface_elevated">#252840</color>
+    <color name="background">#12141F</color>
+
+    <!-- Text -->
+    <color name="primary_text">#EAEEFF</color>
+    <color name="secondary_text">#7B82A8</color>
+    <color name="accent_text">#00E5FF</color>
+
+    <!-- Status -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="divider">#2A2D45</color>
+    <color name="card_bg">#1E2138</color>
+    <color name="fab_bg">#00E5FF</color>
+
+    <!-- Corner label -->
+    <color name="corner_label">#00E5FF</color>
+</resources>
